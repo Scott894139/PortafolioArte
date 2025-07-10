@@ -4,6 +4,7 @@ import styled from 'styled-components';
 import { Helmet } from 'react-helmet-async';
 import { FiArrowLeft, FiDownload, FiHeart, FiShare2 } from 'react-icons/fi';
 import { motion } from 'framer-motion';
+import demoWorks from '../data/demoWorks';
 
 const GalleryDetailContainer = styled.div`
   min-height: 100vh;
@@ -118,31 +119,8 @@ const GalleryDetail = () => {
   const [loading, setLoading] = useState(true);
 
   useEffect(() => {
-    // Simulación de carga de datos
-    const fetchArtwork = async () => {
-      try {
-        // Aquí iría la llamada real a la API
-        setTimeout(() => {
-          setArtwork({
-            id: id,
-            title: 'Obra de Arte Digital',
-            description: 'Esta es una descripción detallada de la obra de arte digital. Incluye información sobre la técnica utilizada, inspiración y proceso creativo.',
-            image: '/api/placeholder/600/600',
-            category: 'Arte Digital',
-            technique: 'Pintura Digital',
-            year: '2024',
-            dimensions: '3000x4000px',
-            tags: ['digital', 'arte', 'ilustración']
-          });
-          setLoading(false);
-        }, 1000);
-      } catch (error) {
-        console.error('Error loading artwork:', error);
-        setLoading(false);
-      }
-    };
-
-    fetchArtwork();
+    const found = demoWorks.find(work => work._id === id);
+    setArtwork(found);
   }, [id]);
 
   if (loading) {
