@@ -272,58 +272,51 @@ const Gallery = () => {
       
       // Datos de demostración para las obras
       const demoWorks = [
+        // Ilustración Digital
         {
           _id: '1',
-          title: 'Ilustración Digital Fantástica',
-          description: 'Una obra de arte digital que explora mundos imaginarios',
-          image: '/images/gallery/work1.jpg',
+          title: 'Ilustración Digital 1',
+          description: 'Obra de ilustración digital 1',
+          image: '/images/galeria/ilustracion1.jpg',
           category: 'ilustracion-digital',
-          year: '2023',
+          year: '2025',
           featured: true
         },
         {
           _id: '2',
-          title: 'Retrato Conceptual',
-          description: 'Retrato artístico con técnicas digitales avanzadas',
-          image: '/images/gallery/work2.jpg',
-          category: 'arte-conceptual',
-          year: '2023',
-          featured: false
+          title: 'Ilustración Digital 2',
+          description: 'Obra de ilustración digital 2',
+          image: '/images/galeria/ilustracion2.jpg',
+          category: 'ilustracion-digital',
+          year: '2025',
+          featured: true
         },
         {
           _id: '3',
-          title: 'Diseño Gráfico Moderno',
-          description: 'Propuesta de diseño para marca contemporánea',
-          image: '/images/gallery/work3.jpg',
-          category: 'diseño-grafico',
-          year: '2023',
-          featured: true
+          title: 'Ilustración Digital 3',
+          description: 'Obra de ilustración digital 3',
+          image: '/images/galeria/ilustracion3.jpg',
+          category: 'ilustracion-digital',
+          year: '2025',
+          featured: false
         },
+        // Retrato Artístico
         {
           _id: '4',
-          title: 'Pintura Digital',
-          description: 'Técnicas tradicionales adaptadas al medio digital',
-          image: '/images/gallery/work4.jpg',
-          category: 'pintura',
-          year: '2023',
-          featured: false
+          title: 'Retrato Artístico 1',
+          description: 'Obra de retrato artístico 1',
+          image: '/images/galeria/retrato1.jpg',
+          category: 'retrato-artistico',
+          year: '2025',
+          featured: true
         },
         {
           _id: '5',
-          title: 'Arte Conceptual Futurista',
-          description: 'Visión del futuro a través del arte digital',
-          image: '/images/gallery/work5.jpg',
-          category: 'arte-conceptual',
-          year: '2023',
-          featured: true
-        },
-        {
-          _id: '6',
-          title: 'Ilustración Narrativa',
-          description: 'Historia contada a través de ilustraciones digitales',
-          image: '/images/gallery/work6.jpg',
-          category: 'ilustracion-digital',
-          year: '2023',
+          title: 'Retrato Artístico 2',
+          description: 'Obra de retrato artístico 2',
+          image: '/images/galeria/retrato2.jpg',
+          category: 'retrato-artistico',
+          year: '2025',
           featured: false
         }
       ];
