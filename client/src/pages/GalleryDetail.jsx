@@ -116,24 +116,11 @@ const GalleryDetail = () => {
   const { id } = useParams();
   const navigate = useNavigate();
   const [artwork, setArtwork] = useState(null);
-  const [loading, setLoading] = useState(true);
 
   useEffect(() => {
     const found = demoWorks.find(work => work._id === id);
     setArtwork(found);
   }, [id]);
-
-  if (loading) {
-    return (
-      <GalleryDetailContainer>
-        <Container>
-          <div style={{ textAlign: 'center', padding: '2rem' }}>
-            <p>Cargando...</p>
-          </div>
-        </Container>
-      </GalleryDetailContainer>
-    );
-  }
 
   if (!artwork) {
     return (
