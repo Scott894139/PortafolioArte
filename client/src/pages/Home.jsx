@@ -227,19 +227,19 @@ const Home = () => {
               _id: '1',
               title: 'Ilustración Digital',
               description: 'Arte digital conceptual',
-              image: '/images/gallery/work1.jpg'
+              image: '/images/galeria/ilustracion1.jpeg'
             },
             {
               _id: '2',
               title: 'Retrato Artístico',
               description: 'Retrato digital personalizado',
-              image: '/images/gallery/work2.jpg'
+              image: '/images/galeria/retrato1.jpeg'
             },
             {
               _id: '3',
               title: 'Diseño Gráfico',
               description: 'Diseño moderno y creativo',
-              image: '/images/gallery/work3.jpg'
+              image: '/images/galeria/ilustracion2.jpeg'
             }
           ]
         };
