@@ -1,30 +1,31 @@
 export const theme = {
   colors: {
-    // Colores principales
-    primary: '#2C3E50',
-    secondary: '#E74C3C',
-    accent: '#F39C12',
-    
+    // Paleta personalizada basada en la imagen proporcionada
+    primary: '#ff5cb3',        // Rosa claro
+    secondary: '#d6006d',      // Fucsia
+    accent: '#ff5cb3',         // Usar rosa claro como acento
+    black: '#000000',          // Negro
+    darkGray: '#4a4a4a',       // Gris oscuro
+
     // Colores de texto
-    text: '#2C3E50',
-    textLight: '#7F8C8D',
-    textDark: '#1A1A1A',
-    heading: '#2C3E50',
-    
+    text: '#4a4a4a',           // Gris oscuro para texto principal
+    textLight: '#ff5cb3',      // Rosa claro para detalles o links
+    textDark: '#000000',       // Negro para títulos destacados
+    heading: '#d6006d',        // Fucsia para headings
+
     // Colores de fondo
-    background: '#FFFFFF',
-    backgroundSecondary: '#F8F9FA',
-    backgroundDark: '#2C3E50',
-    
-    // Colores de estado
+    background: '#fff',        // Fondo blanco
+    backgroundSecondary: '#ff5cb3', // Fondo alternativo rosa claro
+    backgroundDark: '#4a4a4a', // Fondo oscuro
+
+    // Colores de estado (mantener los existentes)
     success: '#27AE60',
     warning: '#F39C12',
     error: '#E74C3C',
     info: '#3498DB',
-    
-    // Colores neutros
+
+    // Colores neutros (mantener los existentes)
     white: '#FFFFFF',
-    black: '#000000',
     gray: {
       100: '#F8F9FA',
       200: '#E9ECEF',
@@ -36,17 +37,17 @@ export const theme = {
       800: '#343A40',
       900: '#212529'
     },
-    
-    // Gradientes
+
+    // Gradientes personalizados
     gradient: {
-      primary: 'linear-gradient(135deg, #667eea 0%, #764ba2 100%)',
-      secondary: 'linear-gradient(135deg, #f093fb 0%, #f5576c 100%)',
-      accent: 'linear-gradient(135deg, #4facfe 0%, #00f2fe 100%)',
-      dark: 'linear-gradient(135deg, #2c3e50 0%, #3498db 100%)',
-      light: 'linear-gradient(135deg, #ffffff 0%, #f8f9fa 100%)'
+      primary: 'linear-gradient(135deg, #ff5cb3 0%, #d6006d 100%)',
+      secondary: 'linear-gradient(135deg, #000000 0%, #4a4a4a 100%)',
+      accent: 'linear-gradient(135deg, #ff5cb3 0%, #d6006d 100%)',
+      dark: 'linear-gradient(135deg, #000000 0%, #4a4a4a 100%)',
+      light: 'linear-gradient(135deg, #fff 0%, #ff5cb3 100%)'
     },
-    
-    // Sombras
+
+    // Sombras (mantener los existentes)
     shadow: {
       sm: '0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24)',
       md: '0 4px 6px rgba(0, 0, 0, 0.1), 0 2px 4px rgba(0, 0, 0, 0.06)',

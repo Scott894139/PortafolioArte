@@ -226,7 +226,7 @@ const Header = () => {
   return (
     <HeaderContainer isScrolled={isScrolled}>
       <Nav>
-        <Logo to="/">Artista Digital</Logo>
+        <Logo to="/">Aline Benavides</Logo>
         
         <NavLinks>
           {navItems.map((item) => (
