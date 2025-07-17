@@ -1,48 +1,61 @@
 const demoWorks = [
   {
     _id: '1',
-    title: 'Ilustración Digital 1',
-    description: 'Obra de ilustración digital 1',
+    title: 'Comisión personalizada',
+    description: 'Ilustración digital por encargo desde el extranjero. El personaje fue diseñado con base en referencias únicas proporcionadas por el cliente',
     image: '/images/galeria/ilustracion1.jpeg',
     category: 'ilustracion-digital',
-    year: '2025',
-    featured: true
+    year: '2024',
+    featured: true,
+    technique: 'Digital',
+    dimensions: 'De acuerdo a la solicitud del cliente'
   },
   {
     _id: '2',
-    title: 'Ilustración Digital 2',
-    description: 'Obra de ilustración digital 2',
+    title: 'Colores',
+    description: 'Ilustación para practica de colores en digital',
     image: '/images/galeria/ilustracion2.jpeg',
     category: 'ilustracion-digital',
     year: '2025',
-    featured: true
+    featured: true,
+    technique: 'Digital',
+    dimensions: 'De acuerdo a la solicitud del cliente'
   },
   {
     _id: '3',
-    title: 'Ilustración Digital 3',
-    description: 'Obra de ilustración digital 3',
+    title: 'Dibujo digital',
+    description: 'Ilustración digital de un personaje existente, desde la inspiración de una imagen de referencia',
     image: '/images/galeria/ilustracion3.jpeg',
     category: 'ilustracion-digital',
     year: '2025',
-    featured: false
+    featured: false,
+    technique: 'Digital',
+    dimensions: 'De acuerdo a la solicitud del cliente'
   },
+
+  
   {
-    _id: '4',
-    title: 'Retrato Artístico 1',
-    description: 'Obra de retrato artístico 1',
-    image: '/images/galeria/retrato1.jpeg',
-    category: 'retrato-artistico',
-    year: '2025',
-    featured: true
-  },
-  {
-    _id: '5',
-    title: 'Retrato Artístico 2',
-    description: 'Obra de retrato artístico 2',
+    _id: '7',
+    title: 'Retrato con técnica de óleo sobre lienzo',
+    description: 'Retrato de pareja real, con técnica de óleo sobre lienzo',
     image: '/images/galeria/retrato2.jpeg',
-    category: 'retrato-artistico',
-    year: '2025',
-    featured: false
+    category: 'oleo',
+    year: '2024 - 2025',
+    featured: false,
+    technique: 'Óleo sobre lienzo',
+    dimensions: 'De acuerdo a la solicitud del cliente'
+  },
+
+  {
+    _id: '9',
+    title: 'Retrato en Grafito',
+    description: 'Retrato realista dibujado con técnica de grafito',
+    image: '/images/galeria/retrato1.jpeg',
+    category: 'grafito',
+    year: '2023',
+    featured: false,
+    technique: 'Grafito sobre papel',
+    dimensions: 'De acuerdo a la solicitud del cliente'
   }
 ];
 

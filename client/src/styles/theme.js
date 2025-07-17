@@ -1,21 +1,21 @@
 export const theme = {
   colors: {
-    // Paleta personalizada basada en la imagen proporcionada
-    primary: '#ff5cb3',        // Rosa claro
-    secondary: '#d6006d',      // Fucsia
-    accent: '#ff5cb3',         // Usar rosa claro como acento
+    // Paleta rosa personalizada
+    primary: '#fa72f3',        // Rosa vibrante (color1)
+    secondary: '#ff85df',      // Rosa claro (color2)
+    accent: '#ffb5de',         // Rosa suave (color3)
     black: '#000000',          // Negro
     darkGray: '#4a4a4a',       // Gris oscuro
 
     // Colores de texto
     text: '#4a4a4a',           // Gris oscuro para texto principal
-    textLight: '#ff5cb3',      // Rosa claro para detalles o links
+    textLight: '#fa72f3',      // Rosa vibrante para detalles o links
     textDark: '#000000',       // Negro para títulos destacados
-    heading: '#d6006d',        // Fucsia para headings
+    heading: '#fa72f3',        // Rosa vibrante para headings
 
     // Colores de fondo
-    background: '#fff',        // Fondo blanco
-    backgroundSecondary: '#ff5cb3', // Fondo alternativo rosa claro
+    background: '#fffffd',     // Blanco casi puro (color5)
+    backgroundSecondary: '#ffe6ee', // Rosa muy claro (color4)
     backgroundDark: '#4a4a4a', // Fondo oscuro
 
     // Colores de estado (mantener los existentes)
@@ -38,13 +38,13 @@ export const theme = {
       900: '#212529'
     },
 
-    // Gradientes personalizados
+    // Gradientes personalizados con la paleta rosa
     gradient: {
-      primary: 'linear-gradient(135deg, #ff5cb3 0%, #d6006d 100%)',
-      secondary: 'linear-gradient(135deg, #000000 0%, #4a4a4a 100%)',
-      accent: 'linear-gradient(135deg, #ff5cb3 0%, #d6006d 100%)',
+      primary: 'linear-gradient(135deg, #fa72f3 0%, #ff85df 100%)',
+      secondary: 'linear-gradient(135deg, #ff85df 0%, #ffb5de 100%)',
+      accent: 'linear-gradient(135deg, #ffb5de 0%, #ffe6ee 100%)',
       dark: 'linear-gradient(135deg, #000000 0%, #4a4a4a 100%)',
-      light: 'linear-gradient(135deg, #fff 0%, #ff5cb3 100%)'
+      light: 'linear-gradient(135deg, #fffffd 0%, #ffe6ee 100%)'
     },
 
     // Sombras (mantener los existentes)

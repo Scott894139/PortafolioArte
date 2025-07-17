@@ -260,7 +260,7 @@ const Gallery = () => {
   const fetchCategories = async () => {
     try {
       // Usar categorías de demostración
-      const data = ['pintura', 'ilustracion-digital', 'diseño-grafico', 'arte-conceptual'];
+      const data = ['ilustracion-digital', 'arte-conceptual', 'oleo', 'grafito'];
       setCategories(data);
     } catch (error) {
       console.error('Error fetching categories:', error);
@@ -320,10 +320,10 @@ const Gallery = () => {
   };
 
   const categoryLabels = {
-    'pintura': 'Pintura',
     'ilustracion-digital': 'Ilustración Digital',
-    'diseño-grafico': 'Diseño Gráfico',
     'arte-conceptual': 'Arte Conceptual',
+    'oleo': 'Óleo',
+    'grafito': 'Grafito',
     'otros': 'Otros'
   };
 
